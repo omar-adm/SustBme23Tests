@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural network Test</title>
+    <link href="test.css" rel="stylesheet" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="container">
+
+    <div class="navbar">
+        <h1 id="nav-text">Neural network Test</h1>
+        <div id="counter">Answered: 0</div>
+        
+    </div>
+    
+    <form id="testForm">
+        <!-- Multiple Choice Questions -->
+        <div class="question">
+            <h3>1. Back propagation</h3>
+            <label><input type="radio" name="q1" value="a"> It is another name given to the function in perceptron</label>
+            <label><input type="radio" name="q1" value="b"> It is the transmission error back through the network to adjust the inputs</label>
+            <label><input type="radio" name="q1" value="c"> It is the transmission of error back through the network to allow weights to be adjusted so that the neural network can learn</label>
+            <label><input type="radio" name="q1" value="d"> None of the mentioned</label>
+        </div>
+
+        <div class="question">
+            <h3>2. Semantic network also known as frame networks</h3>
+            <label><input type="radio" name="q2" value="a"> False</label>
+            <label><input type="radio" name="q2" value="b"> True</label>
+        </div>
+
+        <div class="question">
+            <h3>3. To Find the Degree Of Freedom (DOF) by implementation of If part by Oring the membership of both Ei and AEi</h3>
+            <label><input type="radio" name="q3" value="a"> True</label>
+            <label><input type="radio" name="q3" value="b"> False</label>
+        </div>
+
+        <div class="question">
+            <h3>4. Fuzzy inference system (FIS) is known as</h3>
+            <label><input type="radio" name="q4" value="a"> Fuzzy models</label>
+            <label><input type="radio" name="q4" value="b"> Fuzzy associate memory</label>
+            <label><input type="radio" name="q4" value="c"> Fuzzy rule-based system</label>
+            <label><input type="radio" name="q4" value="d"> All above are correct</label>
+        </div>
+
+        <div class="question">
+            <h3>5. The most popular defuzzification methods are</h3>
+            <label><input type="radio" name="q5" value="a"> Center of gravity (COG)</label>
+            <label><input type="radio" name="q5" value="b"> Center average</label>
+            <label><input type="radio" name="q5" value="c"> Either a or b</label>
+            <label><input type="radio" name="q5" value="d"> Both a and b</label>
+        </div>
+
+        <div class="question">
+            <h3>6. The properties of the set of the rules are</h3>
+            <label><input type="radio" name="q6" value="a"> Completeness</label>
+            <label><input type="radio" name="q6" value="b"> Consistency</label>
+            <label><input type="radio" name="q6" value="c"> Continuity</label>
+            <label><input type="radio" name="q6" value="d"> All above</label>
+        </div>
+
+        <div class="question">
+            <h3>7. The main concept of the expert system is/are</h3>
+            <label><input type="radio" name="q7" value="a"> Inference Engine</label>
+            <label><input type="radio" name="q7" value="b"> Knowledge base</label>
+            <label><input type="radio" name="q7" value="c"> Both a and b</label>
+            <label><input type="radio" name="q7" value="d"> Neither a and b</label>
+        </div>
+
+        <div class="question">
+            <h3>8. Humans are not efficient in dealing with Fuzzy than computer</h3>
+            <label><input type="radio" name="q8" value="a"> Yes</label>
+            <label><input type="radio" name="q8" value="b"> No</label>
+        </div>
+
+        <div class="question">
+            <h3>9. Soft computing techniques are different from conventional in tolerance to</h3>
+            <label><input type="radio" name="q9" value="a"> Imprecision</label>
+            <label><input type="radio" name="q9" value="b"> Certainty</label>
+            <label><input type="radio" name="q9" value="c"> Partial truth</label>
+            <label><input type="radio" name="q9" value="d"> Both a and c</label>
+        </div>
+
+        <div class="question">
+            <h3>10. A perceptron is</h3>
+            <label><input type="radio" name="q10" value="a"> Single layer feedforward and neural network with preprocessing</label>
+            <label><input type="radio" name="q10" value="b"> An auto-associative neural network</label>
+            <label><input type="radio" name="q10" value="c"> A double layer auto-associative neural network</label>
+            <label><input type="radio" name="q10" value="d"> A neural network that contains feedback</label>
+        </div>
+
+        <!-- Matching Questions -->
+        <div class="question-Matching">
+            <h3>Match Group A with Group B</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Group A</th>
+                        <th>Your Answer</th>
+                        <th>Group B</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Linguistic Rules of fuzzy system</td>
+                        <td><input type="text" name="match1"></td>
+                        <td>c) The laws we execute</td>
+                    </tr>
+                    <tr>
+                        <td>Stochastic uncertainties</td>
+                        <td><input type="text" name="match2"></td>
+                        <td>a) Modeled by probabilities</td>
+                    </tr>
+                    <tr>
+                        <td>Linguistic variables</td>
+                        <td><input type="text" name="match3"></td>
+                        <td>b) Defines concept of our everyday language</td>
+                    </tr>
+                    <tr>
+                        <td>Mamdani-style fuzzy inference process</td>
+                        <td><input type="text" name="match4"></td>
+                        <td>e) Fuzzy inference system (FIS)</td>
+                    </tr>
+                    <tr>
+                        <td>Fuzzy models</td>
+                        <td><input type="text" name="match5"></td>
+                        <td>j) Backbone of FIS</td>
+                    </tr>
+                    <tr>
+                        <td>Fuzzy reasoning</td>
+                        <td><input type="text" name="match6"></td>
+                        <td>i) Process to map input to output</td>
+                    </tr>
+                    <tr>
+                        <td>Fuzzification</td>
+                        <td><input type="text" name="match7"></td>
+                        <td>d) Process of fuzzy logic</td>
+                    </tr>
+                    <tr>
+                        <td>Hybrid systems</td>
+                        <td><input type="text" name="match8"></td>
+                        <td>f) Combined systems</td>
+                    </tr>
+                    <tr>
+                        <td>Inference Engine</td>
+                        <td><input type="text" name="match9"></td>
+                        <td>g) With fuzzy inference rules</td>
+                    </tr>
+                    <tr>
+                        <td>Knowledge Base</td>
+                        <td><input type="text" name="match10"></td>
+                        <td>h) Expert systems</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Computation Questions -->
+        <!-- <div class="question">
+            <h3>Compute:</h3>
+            <label>1. Sum for each set: <textarea name="compute1"></textarea></label>
+            <label>2. Core for each set: <textarea name="compute2"></textarea></label>
+            <label>3. 0.5 cut for each set: <textarea name="compute3"></textarea></label>
+            <label>4. Union of the sets: <textarea name="compute4"></textarea></label>
+            <label>5. Intersection of the sets: <textarea name="compute5"></textarea></label>
+        </div> -->
+
+        
+
+            
+
+        <button onclick="submitForm()" class="glow-on-hover" type="button">Submit</button>
+
+
+  
+  
+    </form>
+
+    <div class="results" id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+    </div>
+</div>
+
+<!-- <script>
+    function submitForm() {
+        var score = 0;
+        var form = document.forms['testForm'];
+
+        // Multiple Choice Answers
+        var answers = ['c', 'b', 'a', 'd', 'd', 'd', 'c', 'b', 'd', 'a'];
+
+        for (var i = 0; i < answers.length; i++) {
+            if (form['q' + (i + 1)].value === answers[i]) {
+                score++;
+            }
+        }
+
+        // Matching Answers
+        var matchingAnswers = ['c', 'a', 'b', 'e', 'j', 'i', 'd', 'f', 'g', 'h'];
+
+        for (var i = 0; i < matchingAnswers.length; i++) {
+            if (form['match' + (i + 1)].value.toLowerCase() === matchingAnswers[i]) {
+                score++;
+            }
+        }
+
+        // Compute Questions
+        // You can implement the logic to evaluate the computation questions as needed.
+
+        document.getElementById('score').innerText = 'Your score is: ' + score + '|20';
+        document.getElementById('results').style.display = 'block';
+    }
+</script> -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
