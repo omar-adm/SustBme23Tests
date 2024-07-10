@@ -96,4 +96,5 @@ function submitForm() {
     scoreText.innerText = 'Your score is: ' + score + ' | 20';
     results.style.display = 'block';
     updateCounter();
+    document.getElementById("testForm").reset();
 }
